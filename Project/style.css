@@ -1,0 +1,56 @@
+.main {
+    margin: auto;
+    width: 20%;
+    height:50%;
+    border: 3px solid green;
+    padding: 20px;
+    align-content: center;
+}
+
+#main{
+    text-align: center;
+}
+
+
+.searchBox { 
+    display: flex;
+    flex: 1;
+
+}
+
+.bookDetails{
+    align-content: left;
+    flex :1;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+li {
+    list-style:none;    
+}
+li:hover{
+    background-color: rgb(31, 152, 207);
+    width:99%;
+    border-style: double;
+    display: list-item;
+    border-radius: 3px;
+    text-align: left;
+    display : flex;
+    justify-content: center;
+   
+}
+
+ul {
+    border: rgb(252, 0, 210);
+    align-content: space-around;
+    border-style:inset;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    flex-flow: wrap;
+    margin: auto;
+}
+
+div {
+    margin-bottom: 10px;
+}
